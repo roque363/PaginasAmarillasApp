@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Paginas Amarillas</string>
+
+    <string name="txtQueBusca">QUE BUSCA:</string>
+    <string name="txtDonde">Dónde:</string>
+    <string name="txtUsted">Usted esta en:</string>
+
+    <string-array name="listRestaurantes">
+        <item>Nanka</item>
+        <item>Maido</item>
+        <item>Bao?</item>
+        <item>Burrito Bar - Lima</item>
+        <item>Chicha and Carbo</item>
+        <item>Social Restaurant and Bar</item>
+        <item>Edo Sushi Bar</item>
+        <item>Osaka</item>
+        <item>Norkys</item>
+        <item>Pardos Chicken</item>
+        <item>Tanta</item>
+        <item>La Lucha Sangucheria Criolla</item>
+        <item>Estación 329</item>
+        <item>Pardos Chicken</item>
+        <item>Maitea</item>
+        <item>Pickadeli</item>
+        <item>La 73 Paradero Gourmet</item>
+    </string-array>
+
+</resources>

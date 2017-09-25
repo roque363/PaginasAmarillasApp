@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="StatusBar">#202020</color>
+
+    <color name="Amarillo1">#f5d45c</color>
+    <color name="Amarillo2">#f6e5a5</color>
+    <color name="Amarillo3">#eef598</color>
+
+    <color name="Sulphur1">#d1cc20</color>
+    <color name="Sulphur2">#e3eb82</color>
+
+    <color name="Portrait1">#8e9eab</color>
+    <color name="Portrait2">#eef2f3</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorblack">#000000</color>
+    <color name="colorGrey">#d9d8d8</color>
+
+
+
+</resources>
