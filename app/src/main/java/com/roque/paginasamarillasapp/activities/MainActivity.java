@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 String url;
                 String info;
                 int imgId;
+
                 EmpresaRepository empresaRepository = EmpresaRepository.getInstance();
                 List<Empresa> empresas = empresaRepository.getEmpresas();
                 for (Empresa empresa : empresas){

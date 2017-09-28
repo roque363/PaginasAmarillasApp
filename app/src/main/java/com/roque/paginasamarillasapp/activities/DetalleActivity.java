@@ -12,6 +12,8 @@ public class DetalleActivity extends AppCompatActivity {
     private TextView txtRubro;
     private TextView txtDireccion;
     private TextView txtTelefono;
+    private TextView txtCorreo;
+    private TextView txtInfo;
     private ImageView imgEmpresa;
 
     @Override
@@ -23,6 +25,8 @@ public class DetalleActivity extends AppCompatActivity {
         txtRubro = (TextView)findViewById(R.id.txtRubro);
         txtDireccion = (TextView)findViewById(R.id.txtDireccion);
         txtTelefono = (TextView)findViewById(R.id.txtTelefono);
+        txtCorreo = (TextView)findViewById(R.id.txtCorreo);
+        txtInfo = (TextView)findViewById(R.id.txtInfo);
         imgEmpresa = (ImageView)findViewById(R.id.imgEmpresa);
 
         MostrarDatos();
@@ -42,6 +46,8 @@ public class DetalleActivity extends AppCompatActivity {
         txtRubro.setText(rubro);
         txtDireccion.setText(direccion);
         txtTelefono.setText(telefono);
+        txtCorreo.setText(correo);
+        txtInfo.setText(info);
         imgEmpresa.setImageResource(imgId);
     }
 }
