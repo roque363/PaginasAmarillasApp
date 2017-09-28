@@ -5,6 +5,9 @@
     <string name="txtDonde">Dónde:</string>
     <string name="txtUsted">Usted esta en:</string>
 
+    <string name="txtDireccion">Direccion:</string>
+    <string name="txtTelefono">Telefono:</string>
+
     <string-array name="listRestaurantes">
         <item>Nanka</item>
         <item>Maido</item>

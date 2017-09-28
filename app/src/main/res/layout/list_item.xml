@@ -8,34 +8,43 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp">
+        android:padding="15dp"
+        tools:ignore="UselessParent">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="80dp"
-            android:layout_height="80dp" />
+            android:layout_height="80dp"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/txtTitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imageView"
             android:textColor="@color/colorblack"
             android:textSize="22sp"
-            tools:text="Titulo"
-            android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/imageView"
-            android:layout_marginStart="10dp" />
+            tools:text="Titulo" />
 
         <TextView
             android:id="@+id/txtDescripcion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="5dp"
-            tools:text="Descripcion"
+            android:layout_alignStart="@+id/txtTitulo"
             android:layout_below="@+id/txtTitulo"
-            android:layout_alignStart="@+id/txtTitulo" />
+            tools:text="Descripcion" />
+
+        <TextView
+            android:id="@+id/txtDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtDescripcion"
+            android:layout_below="@+id/txtDescripcion"
+            tools:text="Direccion" />
 
     </RelativeLayout>
 

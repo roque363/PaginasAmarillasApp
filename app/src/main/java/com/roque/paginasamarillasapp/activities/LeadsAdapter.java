@@ -40,6 +40,7 @@ public class LeadsAdapter extends ArrayAdapter<Empresa>{
         ImageView imgId = (ImageView) convertView.findViewById(R.id.imageView);
         TextView nombre = (TextView) convertView.findViewById(R.id.txtTitulo);
         TextView rubro = (TextView) convertView.findViewById(R.id.txtDescripcion);
+        TextView direcccion = (TextView) convertView.findViewById(R.id.txtDireccion);
         //TextView company = (TextView) convertView.findViewById(R.id.tv_company);
 
         // Lead actual.
@@ -49,6 +50,7 @@ public class LeadsAdapter extends ArrayAdapter<Empresa>{
         Glide.with(getContext()).load(empresa.getImgId()).into(imgId);
         nombre.setText(empresa.getNombre());
         rubro.setText(empresa.getRubro());
+        direcccion.setText(empresa.getDireccion());
         //company.setText(lead.getCompany());
 
         return convertView;
